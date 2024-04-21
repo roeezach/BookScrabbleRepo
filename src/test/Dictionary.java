@@ -41,8 +41,6 @@ public class Dictionary {
                 String line;
                 while ((line = reader.readLine()) != null) 
                 {
-                    // Assuming words are separated by spaces
-                    // Split the line into words
                     String[] words = line.toLowerCase().split("\\s+");
                     for (String word : words) 
                     {
