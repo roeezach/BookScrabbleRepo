@@ -3,7 +3,6 @@ import java.util.LinkedHashMap;
 
 //in Remove it should return the string that is Least Recently used (oldest) 
 // insert order ltr : A,B,C,A should return B
-// we can use priority queue and make the priority such that at the top we have the items that was inserted the last.
 
 public class LRU implements CacheReplacementPolicy{
     LinkedHashMap<String, Long> cacheMap;
